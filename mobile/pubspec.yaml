@@ -1,0 +1,38 @@
+name: mobile
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  http: ^1.1.0
+  web_socket_channel: ^2.1.0
+  stomp_dart_client: ^1.0.0
+  fluttertoast: ^8.2.4
+  page_transition: ^2.0.9
+  lottie: ^2.4.0
+  lite_rolling_switch: ^1.0.1
+  loading_animation_widget:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  test: ^1.24.3
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+
